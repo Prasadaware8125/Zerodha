@@ -6,3 +6,11 @@
     text-decoration: none;
     color: #666666;
 }
+
+a{
+    text-decoration: none;
+}
+
+#uniImg{
+    height: 3.2rem;
+}
