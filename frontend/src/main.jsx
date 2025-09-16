@@ -14,13 +14,14 @@ import SupportPage from './landing_page/Support/SupportPage'
 import Navbar from './landing_page/Navbar'
 import Footer from './landing_page/Footer'
 import NotFound from './landing_page/NotFound'
+import AuthPage from './landing_page/pages/AuthPage'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   <Navbar/>
   <Routes>
     <Route path='/' element={<HomePage/>}/>
-    <Route path='/signup' element={<Signup/>}/>
+    <Route path='/signup' element={<AuthPage/>}/>
     <Route path='/about' element={<AboutPage/>}/>
     <Route path='/products' element={<ProductPage/>}/>
     <Route path='/pricing' element={<PricingPage/>}/>

@@ -71,9 +71,9 @@ const Holdings = () => {
               <tr key={index}>
                 <td>{stock.name}</td>
                 <td>{stock.qty}</td>
-                <td>{stock.avg.toFixed(2)}</td>
-                <td>{stock.price.toFixed(2)}</td>
-                <td>{curValue.toFixed(2)}</td>
+                <td>{stock.avg}</td>
+                <td>{stock.price}</td>
+                <td>{curValue}</td>
                 <td className={profClass}>
                   {(curValue - stock.avg * stock.qty).toFixed(2)}
                 </td>
